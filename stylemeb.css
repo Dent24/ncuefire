@@ -1,0 +1,155 @@
+/*Black Background*/
+body {
+    background-color: black;
+  }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+      background-color: #333;
+      overflow: hidden;
+    }
+    
+  /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      font-family: "Microsoft JhengHei";
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+  /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+  /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: rgb(216, 121, 32);
+      color: white;
+    }
+  
+    /* 第六屆 */
+  * {
+    box-sizing: border-box;
+  }
+  
+  .header {
+    padding: 20px; /* some padding */
+    text-align: center; /* center the text */
+    background: rgb(216, 121, 32); /* green background */
+    font-family: "Microsoft JhengHei";
+  }
+  
+  .header p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* 第六屆 */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    padding-top: 20px;
+  }
+    
+    .black{
+      flex: 10px;
+      background-color: black;
+    }
+  
+    .card {
+      flex: 20%;
+      box-shadow: 0 4px 8px 0 rgba(216, 121, 32, 0.2);
+      background-color: white;
+      max-width: 200px;
+      margin: auto;
+      text-align: center;
+      padding-bottom: 10px;
+      font-family: "Microsoft JhengHei";
+    }
+    
+    .title {
+      color: grey;
+      font-size: 18px;
+    }
+    
+    .card a {
+      text-decoration: none;
+      font-size: 22px;
+      color: black;
+    }
+  
+    /*筱歐*/
+    * {
+      box-sizing: border-box;
+    }
+  
+    .row2 {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: black;
+      padding: 20px 40px;
+    }
+  
+    .side{
+      flex: 40%;
+      background-color: white;
+    }
+  
+    .side .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  
+    .main{
+      flex: 60%;
+      background-color: white;
+      padding-left: 15px;
+      color: rgb(0, 0, 0);
+      font-family: "Microsoft JhengHei";
+    }
+  
+    .main p{
+      color: rgb(83, 83, 83);
+      font-family: "Microsoft JhengHei";
+    }
+  
+    /*現任社員*/
+    .header2 {
+      padding: 20px; /* some padding */
+      text-align: center; /* center the text */
+      background: rgb(216, 121, 32); /* green background */
+      font-family: "Microsoft JhengHei";
+    }
+  
+    .row3{
+      background-color: black;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .meb{
+      max-width: 100px;
+      margin: 12px;
+      padding: 10px 0px;
+      background-color: black;
+      color: white;
+      font-family: "Microsoft JhengHei";
+    }
+  
+    .image2{
+      vertical-align: middle;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+  
+    .meb p{
+      text-align: center;
+    }
