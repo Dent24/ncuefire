@@ -274,6 +274,10 @@ nav a.act {
   margin: 15px;
 }
 
+#footer a{
+  margin: 10px;
+}
+
 /* Style all font awesome icons */
 .fa {
   padding: 15px;
