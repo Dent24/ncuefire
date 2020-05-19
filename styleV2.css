@@ -82,7 +82,7 @@ nav a.act {
   position: absolute;
   bottom: 20px;
   right: 20px;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
 }
 
@@ -108,9 +108,9 @@ nav a.act {
 }
 
 /* 指示點 */
-#dot{
-    text-align: center;
-    margin-top: 20px;
+#dot {
+  text-align: center;
+  margin-top: 20px;
 }
 
 .dot {
@@ -131,21 +131,173 @@ nav a.act {
 }
 
 .active {
-    background-color: #000000;
-  }
-
-#text{
-    padding:50px;
-    text-align: center;
-    background: rgb(216, 121, 32); 
+  background-color: #000000;
 }
 
-#text h1{
-    font-size: 40px;
-    color: black;
-    margin-bottom: 20px;
+#text {
+  padding: 50px;
+  text-align: center;
+  background: rgb(216, 121, 32);
 }
 
-#text p{
-    font-size: 20px;
+#text h1 {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+#text p {
+  font-size: 20px;
+}
+
+/* Column container */
+#row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+#side {
+  flex: 30%; /* Set the width of the sidebar */
+  background-color: #f1f1f1; /* Grey background color */
+  color: #000000;
+  font-family: "Microsoft JhengHei";
+  text-align: center;
+  position: relative;
+}
+
+/* Main column */
+#main {
+  flex: 70%; /* Set the width of the main content */
+  background-color: white; /* White background color */
+  color: #000000;
+  font-family: "Microsoft JhengHei";
+  text-align: center;
+  position: relative;
+}
+
+/*side內容*/
+
+#side .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#side .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+#side:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+#side a {
+  color: white;
+  font-family: "Microsoft JhengHei";
+  text-decoration: none;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+/*main內容*/
+
+#main .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#main .overlay {
+  position: absolute;
+  bottom: 0;
+  right: 100%;
+  left: 0;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+#main:hover .overlay {
+  width: 100%;
+  right: 0;
+}
+
+#main a {
+  color: white;
+  font-family: "Microsoft JhengHei";
+  text-decoration: none;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+#footer {
+  padding: 20px; /* Some padding */
+  text-align: center; /* Center text*/
+}
+
+#footer h1{
+  color: rgb(122, 122, 122);
+  font-size: 24px;
+  line-height: 12px;
+  margin: 10px;
+}
+
+#footer p{
+  color: rgb(122, 122, 122);
+  font-family: "Tahoma";
+  line-height: 12px;
+  margin: 15px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
 }
