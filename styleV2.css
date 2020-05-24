@@ -190,7 +190,7 @@ nav a.act {
   bottom: 0;
   left: 100%;
   right: 0;
-  background-color: #008cba;
+  background-color: rgb(216, 121, 32);
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -229,7 +229,7 @@ nav a.act {
   bottom: 0;
   right: 100%;
   left: 0;
-  background-color: #008cba;
+  background-color: rgb(216, 121, 32);
   overflow: hidden;
   width: 0;
   height: 100%;
